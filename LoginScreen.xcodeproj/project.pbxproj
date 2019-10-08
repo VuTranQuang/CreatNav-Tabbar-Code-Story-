@@ -12,6 +12,16 @@
 		96B51D80234AEA8900A1CBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B51D7E234AEA8900A1CBD1 /* Main.storyboard */; };
 		96B51D82234AEA8B00A1CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B51D81234AEA8B00A1CBD1 /* Assets.xcassets */; };
 		96B51D85234AEA8B00A1CBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B51D83234AEA8B00A1CBD1 /* LaunchScreen.storyboard */; };
+		96B51D8D234AEBBC00A1CBD1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D8C234AEBBC00A1CBD1 /* UIView.swift */; };
+		96B51D95234B1D7700A1CBD1 /* Code.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B51D94234B1D7700A1CBD1 /* Code.storyboard */; };
+		96B51D97234B1F5900A1CBD1 /* ViewControllerCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D96234B1F5900A1CBD1 /* ViewControllerCode.swift */; };
+		96B51D99234B1FC400A1CBD1 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D98234B1FC400A1CBD1 /* BaseNavigationController.swift */; };
+		96B51D9B234B211E00A1CBD1 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D9A234B211E00A1CBD1 /* GreenViewController.swift */; };
+		96B51D9D234B21C000A1CBD1 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D9C234B21C000A1CBD1 /* BaseTabbarController.swift */; };
+		96B51DA0234B22A700A1CBD1 /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51D9F234B22A700A1CBD1 /* LoveViewController.swift */; };
+		96B51DA2234B22C300A1CBD1 /* HateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51DA1234B22C300A1CBD1 /* HateViewController.swift */; };
+		96B51DA4234B22CA00A1CBD1 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51DA3234B22CA00A1CBD1 /* SadViewController.swift */; };
+		96B51DA6234B2ADD00A1CBD1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B51DA5234B2ADD00A1CBD1 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		96B51D81234AEA8B00A1CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B51D84234AEA8B00A1CBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B51D86234AEA8B00A1CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B51D8C234AEBBC00A1CBD1 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		96B51D94234B1D7700A1CBD1 /* Code.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Code.storyboard; sourceTree = "<group>"; };
+		96B51D96234B1F5900A1CBD1 /* ViewControllerCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCode.swift; sourceTree = "<group>"; };
+		96B51D98234B1FC400A1CBD1 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		96B51D9A234B211E00A1CBD1 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		96B51D9C234B21C000A1CBD1 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		96B51D9F234B22A700A1CBD1 /* LoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
+		96B51DA1234B22C300A1CBD1 /* HateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HateViewController.swift; sourceTree = "<group>"; };
+		96B51DA3234B22CA00A1CBD1 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
+		96B51DA5234B2ADD00A1CBD1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +75,47 @@
 			isa = PBXGroup;
 			children = (
 				96B51D7A234AEA8900A1CBD1 /* AppDelegate.swift */,
-				96B51D7C234AEA8900A1CBD1 /* ViewController.swift */,
+				96B51D8F234AF15900A1CBD1 /* UseMainStoryboad */,
+				96B51D93234B1D5A00A1CBD1 /* UserCode */,
 				96B51D7E234AEA8900A1CBD1 /* Main.storyboard */,
+				96B51D94234B1D7700A1CBD1 /* Code.storyboard */,
 				96B51D81234AEA8B00A1CBD1 /* Assets.xcassets */,
 				96B51D83234AEA8B00A1CBD1 /* LaunchScreen.storyboard */,
 				96B51D86234AEA8B00A1CBD1 /* Info.plist */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		96B51D8F234AF15900A1CBD1 /* UseMainStoryboad */ = {
+			isa = PBXGroup;
+			children = (
+				96B51D7C234AEA8900A1CBD1 /* ViewController.swift */,
+				96B51D8C234AEBBC00A1CBD1 /* UIView.swift */,
+			);
+			path = UseMainStoryboad;
+			sourceTree = "<group>";
+		};
+		96B51D93234B1D5A00A1CBD1 /* UserCode */ = {
+			isa = PBXGroup;
+			children = (
+				96B51D96234B1F5900A1CBD1 /* ViewControllerCode.swift */,
+				96B51D9C234B21C000A1CBD1 /* BaseTabbarController.swift */,
+				96B51D9A234B211E00A1CBD1 /* GreenViewController.swift */,
+				96B51D98234B1FC400A1CBD1 /* BaseNavigationController.swift */,
+				96B51DA5234B2ADD00A1CBD1 /* BaseViewController.swift */,
+				96B51D9E234B229900A1CBD1 /* TabbarController */,
+			);
+			path = UserCode;
+			sourceTree = "<group>";
+		};
+		96B51D9E234B229900A1CBD1 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				96B51D9F234B22A700A1CBD1 /* LoveViewController.swift */,
+				96B51DA1234B22C300A1CBD1 /* HateViewController.swift */,
+				96B51DA3234B22CA00A1CBD1 /* SadViewController.swift */,
+			);
+			path = TabbarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B51D85234AEA8B00A1CBD1 /* LaunchScreen.storyboard in Resources */,
+				96B51D95234B1D7700A1CBD1 /* Code.storyboard in Resources */,
 				96B51D82234AEA8B00A1CBD1 /* Assets.xcassets in Resources */,
 				96B51D80234AEA8900A1CBD1 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B51DA0234B22A700A1CBD1 /* LoveViewController.swift in Sources */,
+				96B51D9B234B211E00A1CBD1 /* GreenViewController.swift in Sources */,
+				96B51DA6234B2ADD00A1CBD1 /* BaseViewController.swift in Sources */,
 				96B51D7D234AEA8900A1CBD1 /* ViewController.swift in Sources */,
+				96B51D9D234B21C000A1CBD1 /* BaseTabbarController.swift in Sources */,
+				96B51D97234B1F5900A1CBD1 /* ViewControllerCode.swift in Sources */,
+				96B51D8D234AEBBC00A1CBD1 /* UIView.swift in Sources */,
+				96B51D99234B1FC400A1CBD1 /* BaseNavigationController.swift in Sources */,
+				96B51DA4234B22CA00A1CBD1 /* SadViewController.swift in Sources */,
 				96B51D7B234AEA8900A1CBD1 /* AppDelegate.swift in Sources */,
+				96B51DA2234B22C300A1CBD1 /* HateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

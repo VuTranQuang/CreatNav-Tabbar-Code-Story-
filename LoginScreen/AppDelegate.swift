@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Khởi tạo 1 navigation Controller
+        let redVC = UIStoryboard.init(name: "Code", bundle: nil).instantiateViewController(withIdentifier: "VC") as! ViewControllerCode
+        let navController = BaseNavigationController(rootViewController: redVC)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
         return true
     }
 
