@@ -14,10 +14,19 @@ class LoveViewController: BaseViewController {
         super.viewDidLoad()
         self.restorationIdentifier = "love"
 
-        // Do any additional setup after loading the view.
+        let cameraBtnItem = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(takeAPicture(sender:)))
+        navigationItem.leftBarButtonItem = cameraBtnItem
+        let rightButton = UIBarButtonItem(image: UIImage(named: "love"), style: .plain, target: self, action: #selector(love(sender:)))
+        navigationItem.rightBarButtonItem = rightButton
     }
     
-
+    @objc func takeAPicture(sender: AnyObject) {
+        print("picture")
+    }
+    
+    @objc func love(sender: AnyObject) {
+        print("love")
+    }
     /*
     // MARK: - Navigation
 
